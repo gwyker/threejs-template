@@ -8,6 +8,10 @@ import { createControls } from './systems/controls.js'
 import {Clock} from 'three'
 import state from "./state.js";
 
+let camera;
+let renderer;
+let scene;
+
 class Sketch {
 
   constructor(container) {
