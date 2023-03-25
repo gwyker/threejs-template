@@ -1,4 +1,4 @@
-import {Color, FogExp2, Scene} from 'three';
+import {Color, Scene} from 'three';
 import {SCENE_COLOR} from "../config.js";
 
 function createScene() {
